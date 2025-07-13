@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.survivors h1:hover {
+    color:green;
+    transition: 1.5s
+}
+
+.killers h1:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+p {
+    color:white;
+    text-align: left;
+    font-size: 26px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 46px;
+}
+
+.survivors h2:hover {
+    color: lime;
+    transition: 2s
+}
+
+.killers h2:hover {
+    color: red;
+    transition: 2s
+}
+
+.killers img {
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+li{
+    color: white;
+    text-align:center;
+    font-size: 26px;
+}
+
+.survivors img {
+   height: 250px;
+   width: 250px;
+   float: right; 
+}
+
+.survivor :hover{
+    border: 15px double whitesmoke;
+    margin: 30px;
+    padding: 15px;
+}
+
+
+a {
+    color: white;
+    font-size: 29px;
+    text-decoration: none;
+}
